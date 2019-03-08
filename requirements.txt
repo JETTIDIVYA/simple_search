@@ -3,4 +3,3 @@ h5py
 tensorflow
 Keras
 Flask
-gunicorn
