@@ -19,7 +19,7 @@ for feature_path in glob.glob("static/feature/*"):
     img_paths.append('static/img/' + os.path.splitext(os.path.basename(feature_path))[0] + '.jpg')
 
 
-@app.route('/dashboard', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         file = request.files['query_img']
