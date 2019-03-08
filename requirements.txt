@@ -1,4 +1,5 @@
 Pillow
+h5py
 tensorflow
 Keras
 Flask
