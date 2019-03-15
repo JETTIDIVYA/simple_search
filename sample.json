@@ -1,0 +1,70 @@
+{
+    "result":{
+        "data":[{
+            "score":0.94321,
+            "path":"something"
+        },
+        {
+            "score":0.94321,
+            "path":"something"
+        },
+        {
+            "score":0.94321,
+            "path":"something"
+        }]
+    }
+}
+from PIL import Image
+from io import BytesIO
+import base64
+
+data['img'] = '''R0lGODlhDwAPAKECAAAAzMzM/////wAAACwAAAAADwAPAAACIISPeQHsrZ5ModrLlN48CXF8m2iQ3YmmKqVlRtW4MLwWACH+H09wdGltaXplZCBieSBVbGVhZCBTbWFydFNhdmVyIQAAOw==''' 
+
+im = Image.open(BytesIO(base64.b64decode(data)))
+
+
+
+{
+    'details': [
+        {
+            'path': 'static/img/tradi_talamp11.jpg', 
+            'score': 0.0, 
+            'name': 'tradi_talamp11'
+        }, 
+        {
+            'path': 'static/img/modern_talamp10.jpg', 
+            'score': 0.6058209,
+            'name': 'modern_talamp10'
+        }, 
+        {
+            'path': 'static/img/casual_tablelamp1.jpg',
+            'score': 0.73841536, 
+            'name': 'casual_tablelamp1'
+        }, 
+        {
+            'path': 'static/img/modern_talamp6.jpg', 
+            'score': 0.73899484, 
+            'name': 'modern_talamp6'
+        }, 
+        {
+            'path': 'static/img/faho_tablelamp5.jpg', 
+            'score': 0.7659232, 
+            'name': 'faho_tablelamp5'
+        },
+        {
+            'path': 'static/img/casual_tablelamp9.jpg',
+            'score': 0.7731066,
+            'name': 'casual_tablelamp9'
+        }, 
+        {
+            'path': 'static/img/faho_tablelamp2.jpg',
+            'score': 0.7987605,
+            'name': 'faho_tablelamp2'
+        }, 
+        {
+            'path': 'static/img/mc_talamp1.jpg',
+            'score': 0.83741826,
+            'name': 'mc_talamp1'
+        }
+    ]
+}
