@@ -10,7 +10,6 @@ from werkzeug.utils import secure_filename
 import codecs, json 
 import base64
 import time
-import cv2
 app = Flask(__name__)
 
 # Read image features
